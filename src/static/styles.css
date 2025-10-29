@@ -74,6 +74,34 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card ul {
+  list-style: none; /* Hide bullet points */
+  padding-left: 0; /* Remove indent */
+  margin: 10px 0 0 0; /* Margin adjustments */
+  line-height: 1.5; /* Improve readability */
+  color: inherit; /* Use inherited color for consistency */
+}
+
+.activity-card ul li {
+  margin-bottom: 6px; /* Space between list items */
+  color: #333; /* Ensure text color is consistent */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-participant {
+  cursor: pointer;
+  color: #d32f2f;
+  margin-left: 10px;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+.delete-participant:hover {
+  color: #b71c1c;
+}
+
+
 .form-group {
   margin-bottom: 15px;
 }
