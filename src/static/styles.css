@@ -75,7 +75,7 @@ section h3 {
 }
 
 .activity-card ul {
-  list-style-type: disc; /* Ensure bullet points are displayed */
+  list-style-type: disc; /* Participant Ensure bullet points are displayed */
   padding-left: 20px; /* Indent the list */
   margin: 10px 0 0 0; /* Margin adjustments */
   line-height: 1.5; /* Improve readability */
